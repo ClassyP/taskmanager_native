@@ -1,11 +1,16 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, ImageBackground } from 'react-native';
 
-export default class App extends React.Component {
+import pretty_scrn from './Images/pretty_scrn.jpg'
+
+export default class Background extends React.Component {
     render() {
       return (
-        <View style={styles.backgrougContainer}>
-        </View>
+        <ImageBackground src={pretty_scrn} style={styles.backgrougContainer}>
+        <view style={styles.container}>
+            
+        </view>
+        </ImageBackground>
       )
       
     }
@@ -15,8 +20,13 @@ export default class App extends React.Component {
   const styles = StyleSheet.create({
     backgrougContainer: {
       flex: 1,
+      width: null,
+      height: null,
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
     },
+    container: {
+
+    }
   });

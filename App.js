@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import {RkButton, RkTheme} from 'react-native-ui-kitten';
+import { StyleSheet, View } from 'react-native';
+import {RkButton,} from 'react-native-ui-kitten';
 
 export default class App extends React.Component {
   render() {
