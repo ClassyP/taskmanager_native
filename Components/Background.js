@@ -7,9 +7,9 @@ export default class Background extends React.Component {
     render() {
       return (
         <ImageBackground src={pretty_scrn} style={styles.backgrougContainer}>
-        <view style={styles.container}>
+        {/* <View style={styles.container}>
             
-        </view>
+        </View> */}
         </ImageBackground>
       )
       
@@ -26,7 +26,7 @@ export default class Background extends React.Component {
       alignItems: 'center',
       justifyContent: 'center',
     },
-    container: {
+    // container: {
 
-    }
+    // }
   });
